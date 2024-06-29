@@ -1,0 +1,13 @@
+.task-table th, .task-table td {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.task-table {
+    td {
+        vertical-align: middle !important; /* Adjust vertical alignment */
+    }
+    .task-row {
+        height: 20px; /* Example height adjustment */
+    }
+}
