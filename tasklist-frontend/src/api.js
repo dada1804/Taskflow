@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 
-const API_URL = 'https://13.235.23.243/tasks';
-const AUTH_URL = 'https://13.235.23.243/auth'
+const API_URL = 'https://localhost:5000/tasks';
+const AUTH_URL = 'https://localhost:5000/auth'
 
 const getConfig = () => {
     const token = localStorage.getItem('token');
