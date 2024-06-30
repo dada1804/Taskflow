@@ -67,7 +67,7 @@ const SignupForm = () => {
         }
         setLoading(true);
         try {
-            const response = await axios.post('https://13.235.23.243/auth/signup', { email, password, name });
+            const response = await axios.post('https://localhost:5000/auth/signup', { email, password, name });
             if (response.status === 200) {
                 toast.success('Signup successful. Please login.');
                 navigate('/login');
